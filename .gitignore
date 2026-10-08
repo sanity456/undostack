@@ -1,0 +1,12 @@
+.venv/
+.env
+.env.*
+!.env.example
+__pycache__/
+.pytest_cache/
+.artifacts/
+.gltest_cache/
+*.keystore.json
+*.dpapi
+wallets/
+

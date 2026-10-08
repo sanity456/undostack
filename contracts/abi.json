@@ -1,0 +1,182 @@
+{
+  "ctor": {
+    "params": [],
+    "kwparams": {}
+  },
+  "methods": {
+    "activate": {
+      "params": [
+        [
+          "flow_id",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "null",
+      "payable": false
+    },
+    "add_step": {
+      "params": [
+        [
+          "flow_id",
+          "string"
+        ],
+        [
+          "action",
+          "string"
+        ],
+        [
+          "compensation",
+          "string"
+        ],
+        [
+          "actor",
+          "address"
+        ],
+        [
+          "dependencies",
+          [
+            {
+              "$rep": "int"
+            }
+          ]
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "null",
+      "payable": false
+    },
+    "cancel": {
+      "params": [
+        [
+          "flow_id",
+          "string"
+        ],
+        [
+          "reason",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "null",
+      "payable": false
+    },
+    "create_flow": {
+      "params": [
+        [
+          "flow_key",
+          "string"
+        ],
+        [
+          "context",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "string",
+      "payable": false
+    },
+    "finish": {
+      "params": [
+        [
+          "flow_id",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "null",
+      "payable": false
+    },
+    "get_flow": {
+      "params": [
+        [
+          "flow_id",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": true,
+      "ret": "string"
+    },
+    "ready_undos": {
+      "params": [
+        [
+          "flow_id",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": true,
+      "ret": [
+        {
+          "$rep": "int"
+        }
+      ]
+    },
+    "report_step": {
+      "params": [
+        [
+          "flow_id",
+          "string"
+        ],
+        [
+          "index",
+          "int"
+        ],
+        [
+          "report",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "null",
+      "payable": false
+    },
+    "report_undo": {
+      "params": [
+        [
+          "flow_id",
+          "string"
+        ],
+        [
+          "index",
+          "int"
+        ],
+        [
+          "report",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "null",
+      "payable": false
+    },
+    "start_step": {
+      "params": [
+        [
+          "flow_id",
+          "string"
+        ],
+        [
+          "index",
+          "int"
+        ],
+        [
+          "expected_plan_hash",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "null",
+      "payable": false
+    }
+  }
+}

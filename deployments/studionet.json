@@ -1,0 +1,22 @@
+{
+  "abi_sha256": "f0bbd2da66949eedc036170c634e407ae2e79ef4b9a3f0bbafb7fe1d1ed780d1",
+  "contract_address": "0xB1EBa0413B438740A75068b3697574D65d563C2F",
+  "deployed_abi_matches_local": true,
+  "deployed_source_sha256": "be62388d5243bf6c87c4e49d03a592d9a6ee0213e7b55fe7ce4900d1254c6195",
+  "deployment_transaction_hash": "0x8681266af720a07f4dedda3a1dfe1090cf67bc2cf3b992d6f05f2b67a9bf2559",
+  "full_flow_test": {
+    "source_sha256": "be62388d5243bf6c87c4e49d03a592d9a6ee0213e7b55fe7ce4900d1254c6195",
+    "status": "passed",
+    "test_file": "tests/studionet_smoke.py"
+  },
+  "network": {
+    "chain_id": 61999,
+    "name": "studionet",
+    "rpc": "https://studio.genlayer.com/api"
+  },
+  "repository": "undostack",
+  "schema": "genlayer-submission-evidence/v1",
+  "source_bytes_match": true,
+  "source_sha256": "be62388d5243bf6c87c4e49d03a592d9a6ee0213e7b55fe7ce4900d1254c6195",
+  "wallet_address": "0x3060C8794de7f4494C7F2d5c7168d7B79071c56F"
+}
